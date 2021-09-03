@@ -1,4 +1,4 @@
 #!/usr/bin/env sh
-python -m pip install -r tests/requirements.txt
-python -m pip install -e .
-python -m pytest
+python3 -m pip install -r tests/requirements.txt
+python3 -m pip install -e .
+python3 -m pytest
