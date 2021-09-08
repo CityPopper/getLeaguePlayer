@@ -2,3 +2,4 @@
 .vscode
 .pytest_cache
 lambda.egg-info
+.DS_Store
