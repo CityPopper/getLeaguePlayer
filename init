@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+python3 -m venv .venv
+git submodule update --remote --init
+echo "Initialized. Don't forget to activate your venv!"
