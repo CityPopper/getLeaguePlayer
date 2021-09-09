@@ -1,0 +1,4 @@
+[submodule "pipelines"]
+	path = pipelines
+	url = git@github.com:CityPopper/pipelines.git
+	branch = main
