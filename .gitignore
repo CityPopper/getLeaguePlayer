@@ -4,3 +4,5 @@
 *.egg-info
 .DS_Store
 __pycache__
+lambda.zip
+/package/
