@@ -7,8 +7,6 @@ import boto3
 from botocore.exceptions import ClientError
 
 
-# TODO: Better exiting and logging
-# TODO: Tests for getApiKey
 def getSummonerByName(summonerName, region):
     summonerName = urlencode(summonerName)
     if region not in ["na1"]:
@@ -58,7 +56,6 @@ def getApiKey():
     return get_secret_value_response["SecretString"]
 
 
-# TODO: Use actual inputs
 def lambda_handler(event, context):
     return {
         "statusCode": 200,
